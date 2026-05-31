@@ -1,4 +1,3 @@
-# Vivaz-Garden
 # Vivaz Garden
 
 ## Sobre o Projeto
