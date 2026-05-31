@@ -9,11 +9,9 @@ function abrirImagem(img) {
 function fecharImagem() {
   document.getElementById("modal").style.display = "none";
 }
-
-/* BOTÃO X */
+
 document.querySelector(".fechar").onclick = fecharImagem;
-
-/* clicar fora fecha */
+
 window.onclick = function(event) {
   const modal = document.getElementById("modal");
   if (event.target === modal) {
