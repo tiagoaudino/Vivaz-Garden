@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Vivaz Garden</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Vivaz Garden</div>
+
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Vivaz Garden</h1>
+    <p>Transformamos momentos em memórias inesquecíveis</p>
+    <a href="https://www.google.com.br/maps/place/Vivaz+Garden+-+Jardim+de+Eventos/@-27.3723831,-53.576691,12z/data=!4m10!1m2!2m1!1svivaz+garden!3m6!1s0x94fb9d54fcd6df6b:0x2bf7ace9a638e2f8!8m2!3d-27.3723831!4d-53.4242557!15sCgx2aXZheiBnYXJkZW5aDiIMdml2YXogZ2FyZGVukgELZXZlbnRfdmVudWWaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhrTWsxNlFqRlhhMnhPV210b00yVnRkSFpSZW1SYVRqQldUbVJIWXhBQuABAPoBBQijARBI!16s%2Fg%2F11x717mv16?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D" class="btn">Ver localização</a>
+  </div>
+</section>
+
+<section class="galeria" id="galeria">
+  <h2>Conheça o nosso espaço</h2>
+
+  <div class="grid">
+    <img src="WhatsApp Image 2026-03-29 at 14.24.19.jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 09.56.34 (1).jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 09.56.35 (1).jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 09.56.35.jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 10.05.49.jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 10.06.02.jpeg" onclick="abrirImagem(this)">
+    <img src="WhatsApp Image 2026-04-24 at 10.53.18.jpeg" onclick="abrirImagem(this)">
+  </div>
+</section>
+
+<section class="servicos" id="servicos">
+  <h2>Eventos que realizamos</h2>
+
+  <div class="cards">
+    <div class="card">Casamentos</div>
+    <div class="card">Aniversários</div>
+    <div class="card">Corporativo</div>
+    <div class="card">Formaturas</div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <h2>Entre em contato</h2>
+
+  <p class="desc">Fale com a gente agora mesmo 👇</p>
+
+  <div class="botoes">
+    <a href="https://www.instagram.com/vivazgardenfw/" class="btn insta">Instagram</a>
+    <a href="https://wa.me/5599645906" class="btn whats">WhatsApp</a>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span class="fechar">&times;</span>
+  <img id="imgModal">
+</div>
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
